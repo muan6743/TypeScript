@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     async function fetchWeatherData(location: string): Promise<WeatherData> {
-        const apiKey = "64abc262bc8d9bb56ae5e285d8f4114a"; // Replace with your OpenWeatherMap API key
+        const apiKey = "YOUR_API_KEY"; // Replace with your OpenWeatherMap API key
 
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
 
